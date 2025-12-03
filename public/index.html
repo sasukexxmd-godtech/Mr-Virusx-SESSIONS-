@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MRVIRUSX • Session Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="anime-bg"></div>
+
+<div class="container">
+    <h1 class="title">⚡ MRVIRUSX SESSION LOGIN ⚡</h1>
+
+    <p class="sub">Enter your WhatsApp number to generate a secure encrypted session.</p>
+
+    <div class="form-box">
+        <input type="text" id="number" placeholder="+12345678900">
+        <button id="generate">Generate QR</button>
+    </div>
+
+    <div id="loading" class="hidden loading">Generating QR...</div>
+
+    <div id="qrBox" class="hidden">
+        <h2>📱 Scan QR Code</h2>
+        <img id="qrImage" src="">
+        <button id="download" class="hidden">Download Session</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
